@@ -10,7 +10,9 @@
   "documentation": "https://github.com/mletenay/home-assistant-goodwe-inverter",
   "iot_class": "local_polling",
   "issue_tracker": "https://github.com/mletenay/home-assistant-goodwe-inverter/issues",
-  "loggers": ["goodwe"],
-  "requirements": ["goodwe==0.4.8"],
+  "loggers": [
+    "goodwe"
+  ],
+  "requirements": [],
   "version": "0.9.9.29"
 }
