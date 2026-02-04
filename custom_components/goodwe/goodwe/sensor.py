@@ -776,9 +776,7 @@ class Schedule(Sensor, EcoMode):
     def set_schedule_type(self, schedule_type: ScheduleType, is745: bool):
         """Set the schedule type"""
         if schedule_type == ScheduleType.ECO_MODE:
-            # try to keep-reuse the type, use is745 only when necessary
-            if self.schedule_type not in (ScheduleType.ECO_MODE, ScheduleType.ECO_MODE_745):
-                self.schedule_type = ScheduleType.ECO_MODE_745 if is745 else ScheduleType.ECO_MODE
+            self.schedule_type = ScheduleType.ECO_MODE_745 if is745 else ScheduleType.ECO_MODE
         else:
             self.schedule_type = schedule_type
 

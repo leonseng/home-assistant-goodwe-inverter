@@ -31,6 +31,7 @@ PLATFORM_745_HV_MODELS = (
     "ARB",
     "URB",
     "EBR",
+    "NAH",
 )
 PLATFORM_753_MODELS = ("AES", "HHI", "ABP", "EHB", "HSB", "HUA", "CUA")
 
