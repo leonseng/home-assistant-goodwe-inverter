@@ -1,7 +1,7 @@
 """The Goodwe inverter component."""
 
-from goodwe import InverterError, connect
-from goodwe.const import GOODWE_TCP_PORT, GOODWE_UDP_PORT
+from goodwe_ls import InverterError, connect
+from goodwe_ls.const import GOODWE_TCP_PORT, GOODWE_UDP_PORT
 from homeassistant.const import CONF_HOST, CONF_PORT, CONF_PROTOCOL, CONF_SCAN_INTERVAL
 from homeassistant.core import HomeAssistant
 from homeassistant.exceptions import ConfigEntryNotReady
