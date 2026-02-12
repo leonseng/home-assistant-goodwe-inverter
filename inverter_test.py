@@ -1,7 +1,7 @@
 """Simple test script to check inverter UDP protocol communication"""
 
 import asyncio
-import goodwe_ls
+from .custom_components.goodwe import goodwe_ls as goodwe
 import logging
 import sys
 
